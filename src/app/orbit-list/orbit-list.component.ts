@@ -1,6 +1,3 @@
-// import { Component, Input, OnInit } from '@angular/core';
-// import { Satellite } from '../satellite';
-
 import { Component, OnInit, Input } from '@angular/core';
 import { Satellite } from '../satellite';
 
