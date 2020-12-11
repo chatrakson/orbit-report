@@ -10,7 +10,7 @@
    <!-- TODO: put <tr *ngFor=""></tr> here -->
    <tr *ngFor="let floatingObj of satellites">
        <td>{{floatingObj.name}}</td>
-       <td>{{floatingObj.type}}</td>
+       <td [class.warning]="floatingObj.shouldShowWarning()">{{floatingObj.type}}</td>
        <td>{{floatingObj.operational}}</td>
        <td>{{floatingObj.orbitType}}</td>
        <td>{{floatingObj.launchDate}}</td>
